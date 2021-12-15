@@ -1,0 +1,30 @@
+{
+  "name": "carrito-de-compras-javascript",
+  "version": "1.0.0",
+  "description": "Hacemos la funcionalidad del carrito de compras, solamente con JavaScript.",
+  "main": "custom.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garu2/Carrito-de-Compras-JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garu2/Carrito-de-Compras-JavaScript/issues"
+  },
+  "homepage": "https://github.com/garu2/Carrito-de-Compras-JavaScript#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
